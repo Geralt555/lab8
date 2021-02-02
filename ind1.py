@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
             trains.append(train)
             if len(trains) > 1:
-                trains.sort(key=lambda item: item.get('num', ''))
+                trains.sort(key=lambda item: item.get("time"))
 
         elif command == 'list':
             line = '+-{}-+-{}-+-{}-+-{}-+'.format(
